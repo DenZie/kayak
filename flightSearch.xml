@@ -1,0 +1,10 @@
+<suite name="kayak- flight search" verbose="10">
+  <parameter name="browser" value="firefox" />
+  <parameter name="testdata" value="D:\MyWorkSpace\kayak\src\com\dd\kayak\testdata\testData.xlsx" />
+  <test name="flightSearch" preserve-order="true">
+    <classes>
+      <class name="com.dd.kayak.tests.FlightSearchTest">
+      </class>
+    </classes>
+  </test>
+</suite>
